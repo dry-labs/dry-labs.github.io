@@ -2,3 +2,15 @@
 # Main scss file, requires this header
 ---
 @charset "utf-8";
+
+.logo-equalizer {
+  min-height: 142px;
+}
+
+.img-responsive {
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+  height: auto;
+}
