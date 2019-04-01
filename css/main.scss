@@ -3,14 +3,59 @@
 ---
 @charset "utf-8";
 
-.logo-equalizer {
-  min-height: 142px;
+// Base
+
+.equalizer {
+  position: relative;
 }
 
 .img-responsive {
-  max-width: 80%;
-  display: block;
-  margin: 0 auto;
-  padding: 5px;
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
   height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+// Person-box:
+
+.person {
+  min-height: 380px;
+  position: relative;
+}
+
+.person-photo {
+  height: 150px;
+}
+
+.person-title {
+  text-align: center;
+}
+
+.person-footer {
+  position: absolute;
+  left: 50%;
+  bottom: 5px;
+  transform: translate(-50%, 0);
+}
+
+.person-links {
+  text-align: center;
+  font-size: 20px;
+}
+
+.person-links a {
+  text-decoration: none;
+  border-bottom: none;
+}
+
+// Logo:
+
+.logo {
+  height: 100px;
 }
