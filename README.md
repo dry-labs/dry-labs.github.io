@@ -1,6 +1,6 @@
-# dry-labs.github.io
+# drylabs.io
 
-Company's website
+Company's website, [see it live](https://drylabs.io).
 
 ## Development
 
