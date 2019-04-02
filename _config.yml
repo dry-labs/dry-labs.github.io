@@ -1,6 +1,6 @@
 # Site settings
-title: "dry-labs"
-description: dry-labs company
+title: "Drylabs"
+description: Drylabs company
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dry-labs.github.io" # the base hostname & protocol for your site
