@@ -3,7 +3,17 @@
 ---
 @charset "utf-8";
 
-// Overrides
+// Common mixins:
+
+%social-icon {
+  text-decoration: none;
+  border-bottom: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+// Overrides:
 
 .hack {
   h2 {
@@ -11,7 +21,7 @@
   }
 }
 
-// Base
+// Base:
 
 .equalizer {
   position: relative;
@@ -55,15 +65,29 @@
 .person-links {
   text-align: center;
   font-size: 20px;
-}
 
-.person-links a {
-  text-decoration: none;
-  border-bottom: none;
+  a {
+    @extend %social-icon;
+  }
 }
 
 // Logo:
 
 .logo {
   height: 100px;
+}
+
+// Social:
+
+.social {
+  position: relative;
+}
+
+.social-links {
+  text-align: center;
+  font-size: 20px;
+
+  a {
+    @extend %social-icon;
+  }
 }
